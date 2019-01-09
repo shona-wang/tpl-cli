@@ -1,0 +1,22 @@
+{
+  "name": "tpl-cli",
+  "version": "1.0.0",
+  "description": "输入命令下载模板",
+  "main": "index.js",
+  "bin": {
+    "tpl-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "shelljs": "^0.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "shona",
+  "license": "ISC"
+}
