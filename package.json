@@ -1,5 +1,5 @@
 {
-  "name": "tpl-cli",
+  "name": "get-template-cli",
   "version": "1.0.0",
   "description": "输入命令下载模板",
   "main": "index.js",
@@ -7,23 +7,6 @@
     "tpl-cli": "./index.js"
   },
   "dependencies": {
-    "_balanced-match@1.0.0@balanced-match": "^1.0.0",
-    "_brace-expansion@1.1.11@brace-expansion": "^1.1.11",
-    "_commander@2.19.0@commander": "^2.19.0",
-    "_fs.realpath@1.0.0@fs.realpath": "^1.0.0",
-    "_concat-map@0.0.1@concat-map": "^0.0.1",
-    "_glob@7.1.3@glob": "^7.1.3",
-    "_inflight@1.0.6@inflight": "^1.0.6",
-    "_inherits@2.0.3@inherits": "^2.0.3",
-    "_interpret@1.2.0@interpret": "^1.2.0",
-    "_minimatch@3.0.4@minimatch": "^3.0.4",
-    "_once@1.4.0@once": "^1.4.0",
-    "_path-is-absolute@1.0.1@path-is-absolute": "^1.0.1",
-    "_path-parse@1.0.6@path-parse": "^1.0.6",
-    "_rechoir@0.6.2@rechoir": "^0.6.2",
-    "_resolve@1.9.0@resolve": "^1.9.0",
-    "_shelljs@0.8.3@shelljs": "^0.8.3",
-    "_wrappy@1.0.2@wrappy": "^1.0.2",
     "commander": "^2.19.0",
     "shelljs": "^0.8.2"
   },

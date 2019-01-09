@@ -19,13 +19,7 @@ program
         if (tpl) {
             // 先判断是否有模板文件，如果有模板文件先进行删除
             let hadTplPath = `${installPath}/${tpl}.vue`;
-            console.log(`模板路径${hadTplPath}`);
-            if (shell.find(hadTplPath)){
-                shell.echo('该目录中已存在该模板文件，是否删除？')
-                shell.rm('-i', hadTplPath);
-            }
             let gitPath = `https://github.com/shona-wang/${projectName}.git`;
-            console.info(`从${gitPath}地址下载模板`)
             if (shell.exec(`git clone ${gitPath}`).code !== 0) {
                 shell.echo('Error: git clone 失败，请检查网络')
                 shell.exit(1)
